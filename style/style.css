@@ -53,3 +53,38 @@ nav li{
 #banner-button{
     margin-top: 40px;
 }
+/* Action Section */
+.action{
+    margin: 116px 176px 116px 140px;
+    
+    max-width: 1130px;
+}
+.action-container{
+    display: flex;
+    gap: 200px;
+   
+}
+.action-col-one{
+    margin: 60px 100px 60px 0px;
+}
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+.action-description{
+    font-size: 24px;
+    font-weight: 400;
+    color:#25243266;
+    margin-top: 23px;
+}
+#action-button{
+    margin-top:30px ;
+}
+
+.action-col-two img{
+    border-radius: 50px;
+    width: 403px;
+    height: 328px;
+   
+}
