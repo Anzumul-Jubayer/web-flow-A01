@@ -122,4 +122,54 @@ nav li{
 
 }
 /* user feedback*/
+.feedback{
+    margin: 137px 149px 137px 151px;
+  
+
+}
+
+.feedback-title{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.741);
+    font-size: 42px;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+.feedback-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+.feedback-card{
+    width: 366px;
+    background-color: #FFFFFF;
+    padding: 10px 20px 20px 30px;
+    border: 1px solid rgba(189, 183, 107, 0.226);
+    border-radius: 10px;
+}
+.star{
+    display: flex;
+    padding-top: 25px;
+}
+.feedback-card h4{
+     padding-top: 15px;
+     font-size: 20px;
+     font-weight: bold;
+}
+.feedback-card p{
+  padding-top: 10px;
+}
+.user-name-image{
+    display: flex;
+    gap: 10px;
+    margin-top: 25px;
+}
+.user-name-image img{
+    border-radius: 50%;
+}
+.date{
+    color: gray;
+}
+
+
 
