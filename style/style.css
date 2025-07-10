@@ -88,3 +88,36 @@ nav li{
     height: 328px;
    
 }
+/* Productive */
+.productive{
+    margin: 116px 250px 137px 141px;
+    background-color: #4d47ff1f;
+    border-radius: 25px;
+}
+.productive-container{
+    padding: 50px 142px;
+}
+.productive-title{
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+    padding-bottom: 40px;
+}
+.productive-description{
+    display: flex;
+    justify-content: space-around;
+
+}
+.productive-description h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: rgba(78, 71, 255, 1);
+
+}
+.productive-description h5{
+    font-size: 20px;
+    font-weight: 400;
+    color: #0000005b;
+
+}
