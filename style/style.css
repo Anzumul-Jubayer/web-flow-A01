@@ -57,7 +57,7 @@ nav li{
 .action{
     margin: 116px 176px 116px 140px;
     
-    max-width: 1130px;
+    
 }
 .action-container{
     display: flex;
@@ -65,7 +65,7 @@ nav li{
    
 }
 .action-col-one{
-    margin: 60px 100px 60px 0px;
+    margin: 60px 150px 60px 0px;
 }
 .action-title{
     font-size: 42px;
@@ -90,7 +90,7 @@ nav li{
 }
 /* Productive */
 .productive{
-    margin: 116px 250px 137px 141px;
+    margin: 116px 170px 137px 141px;
     background-color: #4d47ff1f;
     border-radius: 25px;
 }
