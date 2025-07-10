@@ -123,7 +123,7 @@ nav li{
 }
 /* user feedback*/
 .feedback{
-    margin: 137px 149px 137px 151px;
+    margin: 137px 170px 137px 151px;
   
 
 }
@@ -138,14 +138,14 @@ nav li{
 .feedback-container{
     display: flex;
     justify-content: space-around;
-    gap: 40px;
+    gap: 30px;
 }
 .feedback-card{
     width: 366px;
     background-color: #FFFFFF;
     padding: 10px 20px 20px 30px;
     border: 1px solid rgba(189, 183, 107, 0.226);
-    border-radius: 10px;
+    border-radius: 14px;
 }
 .star{
     display: flex;
