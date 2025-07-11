@@ -6,6 +6,7 @@
 }
 *{
     margin: 0px;
+   
 }
 
 /* Shared Style */
@@ -27,7 +28,7 @@
     background-position: center;
     background-size: cover;
     height: 800px;
-    margin-bottom: 110px;
+    /* margin-bottom: 110px; */
 }
 nav ul{
     display: flex;
@@ -53,9 +54,14 @@ nav li{
 #banner-button{
     margin-top: 40px;
 }
+/* main section */
+main{
+     background-color: #4d47ff0c;
+     
+}
 /* Action Section */
 .action{
-    margin: 116px 176px 116px 140px;
+    padding: 116px 176px 116px 140px;
     
     
 }
@@ -206,7 +212,65 @@ nav li{
     height: 370px;
 }
 /* Contact */
+.contact{
+    margin: 90px 150px 14px 150px;
+}
 
+.contact-container{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+#contact-title{
+   width:60%;
+   font-size: 97px;
+   font-weight: bold;
+   padding: 200px 115px 200px 0px;
+}
+#contact-form{
+    width: 40%;
+}
+.size{
+    margin-top: 5px;
+}
+.size label{
+    font-size: 18px;
+    font-weight: 600;
+}
+#contact-form input{
+    margin-top: 5px;
+    padding: 20px 185px 20px 30px;
+    
+    background-color: white;
+    border: none;
+    border-radius: 14px;
+}
+
+input::placeholder {
+  color: gray;
+  font-size: 13px;
+}
+textarea::placeholder{
+  color: gray;
+  font-size: 13px;
+}
+#contact-form textarea{
+    margin-top: 10px;
+    background-color: white;
+    padding-top:20px; 
+    padding-left: 10px;
+    border: none;
+    border-radius: 14px;
+    
+}
+#contact-button{
+    width: 100%;
+    margin-top: 30px;
+    
+}
+#contact-button a {
+    padding: 15px 155px;
+}
 
 
 
