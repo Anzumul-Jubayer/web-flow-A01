@@ -146,6 +146,7 @@ nav li{
     padding: 10px 20px 20px 30px;
     border: 1px solid rgba(189, 183, 107, 0.226);
     border-radius: 14px;
+     /* box-shadow: 1px 1px 1px  1px rgba(0, 0, 0, 0.201); */
 }
 .star{
     display: flex;
@@ -173,6 +174,39 @@ nav li{
 .date{
     color: gray;
 }
+/* focus */
+.focus{
+   background-color: rgba(245, 222, 179, 0.163);
+   margin: 137px 160px 92px 151px;
+   padding: 71px 150px;
+   border-radius:14px ;
+   /* box-shadow: 1px 1px 1px  1px rgba(0, 0, 0, 0.201); */
+}
+.focus-container{
+    text-align: center;
+}
+.focus-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+    padding-bottom: 20px;
+}
+.focus-description{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}   
+#foucs-button{
+    margin-top: 30px;
+}
+.focus-container img{
+    margin-top: 40px;
+    border-radius: 48px;
+    width: 840px;
+    height: 370px;
+}
+/* Contact */
+
 
 
 
