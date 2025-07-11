@@ -182,7 +182,7 @@ main{
 }
 /* focus */
 .focus{
-   background-color: rgba(245, 222, 179, 0.163);
+   background-color: white;
    margin: 137px 160px 92px 151px;
    padding: 71px 150px;
    border-radius:14px ;
@@ -271,6 +271,37 @@ textarea::placeholder{
 #contact-button a {
     padding: 15px 155px;
 }
+/* footer */
+footer{
+     margin: 104px 480px;
+}
 
+.footer-container{
+    text-align: center;
+   
+}
+#footer-title{
+    font-size: 100px;
+    font-weight: 900;
+    color: blue;
+    padding-bottom: 20px;
+}
+#footer-subtitle{
+    font-size: 20px;
+    font-weight: 400;
+    color: #8987A1;
+    padding-bottom: 20px;
+}
+.link-container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.link-container a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #8987A1;
+}
 
 
