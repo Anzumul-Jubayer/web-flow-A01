@@ -123,7 +123,7 @@ nav li{
 }
 /* user feedback*/
 .feedback{
-    margin: 137px 170px 137px 151px;
+    margin: 137px 170px 137px 141px;
   
 
 }
@@ -166,7 +166,10 @@ nav li{
 }
 .user-name-image img{
     border-radius: 50%;
+    width: 45px;
+    height: 45px;
 }
+
 .date{
     color: gray;
 }
